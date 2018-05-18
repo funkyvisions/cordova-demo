@@ -1,0 +1,32 @@
+{
+
+    "ios": {
+      "debug": {
+        "developmentTeam": "6N85WEFMZV"
+      },
+      "release": {
+        "developmentTeam": "6N85WEFMZV",
+        "codeSignIdentity": "iPhone Developer",
+        "packageType": "ad-hoc"
+      }
+    },
+  
+    "android" : {
+      "debug": {
+        "keystore": "~/.android/debug.keystore",
+        "storePassword": "android",
+        "alias": "androiddebugkey",
+        "password" : "android",
+        "keystoreType": ""
+      },
+      "release": {
+        "keystore": "./build/android.keystore",
+        "storePassword": "tereza",
+        "alias": "tereza",
+        "password" : "tereza",
+        "keystoreType": ""
+      }
+    }
+  
+  }
+  
